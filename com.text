@@ -1,0 +1,18 @@
+
+
+
+
+ืทำ backend โดย prisma
+    npx prisma init
+    npm install prisma
+
+    DATABASE_URL="mysql://root:6521604201@localhost:3306/ministore" แก้ใน .env
+
+        datasource db {
+             provider = "mysql" แก้ใน prisma
+             url      = env("DATABASE_URL") 
+            }
+
+    npx prisma db pull
+    npx prisma generate
+    npx prisma migrate dev --name update_customers_schema คำสั่ง update ข้อมูล
