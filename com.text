@@ -16,3 +16,27 @@
     npx prisma db pull
     npx prisma generate
     npx prisma migrate dev --name update_customers_schema คำสั่ง update ข้อมูล
+
+
+
+    หน้า frontend
+    √ Project name: ... frontend
+    √ Add TypeScript? ... No / Yes
+    √ Add JSX Support? ... No / Yes
+    √ Add Vue Router for Single Page Application development? ... No / Yes
+    √ Add Pinia for state management? ... No / Yes
+    √ Add Vitest for Unit Testing? ... No / Yes
+    √ Add an End-to-End Testing Solution? » No
+    √ Add ESLint for code quality? » No
+
+    cd frontend
+    npm install
+    npm run dev
+    
+    npm install --save quasar @quasar/extras
+    npm install --save-dev @quasar/vite-plugin sass-embedded@^1.80.2
+
+https://quasar.dev/vue-components/table#responsive-tables
+https://quasar.dev/vue-components/input
+https://router.vuejs.org/guide/essentials/dynamic-matching
+    
