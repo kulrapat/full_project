@@ -1,7 +1,4 @@
 
-
-
-
 ืทำ backend โดย prisma
     npx prisma init
     npm install prisma
@@ -38,5 +35,5 @@
 
 https://quasar.dev/vue-components/table#responsive-tables
 https://quasar.dev/vue-components/input
-https://router.vuejs.org/guide/essentials/dynamic-matching
+
     

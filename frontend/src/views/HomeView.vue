@@ -3,7 +3,6 @@
     <div class="q-pa-md">
       <q-btn icon="add" @click="onCreate" />
     </div>
-
     <q-table
       title="Treats"
       :rows="rows"
@@ -56,6 +55,7 @@ const fetchData = async () => {
     })
 }
 fetchData()
+
 
 const onCreate = () => {
   router.push('/create')
