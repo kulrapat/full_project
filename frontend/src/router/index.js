@@ -26,7 +26,52 @@ const router = createRouter({
       path: '/update/:id',
       name: 'update',
       component: () => import('../views/UpdateView.vue')
-    }
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component: () => import('../views/product/ProductsView.vue')
+    },
+    {
+      path: '/updateproduct/:id',
+      name: 'updateproduct',
+      component: () => import('../views/product/UpdateproductView.vue')
+    },
+    {
+      path: '/createproduct',
+      name: 'createproduct',
+      component: () => import('../views/product/CreateproductView.vue')
+    },
+    {
+      path: '/user',
+      name: 'user',
+      component: () => import('../views/user/UserView.vue')
+    },
+    {
+      path: '/updateuser/:id',
+      name: 'updateuser',
+      component: () => import('../views/user/UpdateuserView.vue')
+    },
+    {
+      path: '/createuser',
+      name: 'createuser',
+      component: () => import('../views/user/CreateuserView.vue')
+    },
+    {
+      path: '/order',
+      name: 'order',
+      component: () => import('../views/order/OrderView.vue')
+    },
+    {
+      path: '/updateorder/:id',
+      name: 'updateorder',
+      component: () => import('../views/order/UpdateorderView.vue')
+    },
+    {
+      path: '/createorder',
+      name: 'createorder',
+      component: () => import('../views/order/Createorderview.vue')
+    },
   ],
 })
 
